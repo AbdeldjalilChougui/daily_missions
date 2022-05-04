@@ -2,8 +2,6 @@ import 'dart:async';
 
 import 'package:dailymissions/day_review.dart';
 import 'package:dailymissions/main.dart';
-import 'package:dailymissions/missions.dart';
-import 'package:dailymissions/previous_days.dart';
 import 'package:dailymissions/save_page.dart';
 import 'package:dailymissions/sql_helper.dart';
 import 'package:flutter/cupertino.dart';
