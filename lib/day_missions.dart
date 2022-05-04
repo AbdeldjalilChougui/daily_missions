@@ -4,20 +4,10 @@ import 'package:dailymissions/avan_incon.dart';
 import 'package:dailymissions/main.dart';
 import 'package:dailymissions/mission_detail.dart';
 import 'package:dailymissions/missions.dart';
-import 'package:dailymissions/save_page.dart';
 import 'package:dailymissions/sql_helper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:sqflite/sql.dart';
-
-class DayMissions extends StatefulWidget {
-  static final String id = "daymissions";
-
-  @override
-  _DayMissionsState createState() => _DayMissionsState();
-}
-
 
 
 List<String> list = [
@@ -90,6 +80,14 @@ List<bool> isPressedList = [
 List<bool> isPressedList2 = [
   false,false,false,false,false,false,false
 ];
+
+
+class DayMissions extends StatefulWidget {
+  static final String id = "daymissions";
+
+  @override
+  _DayMissionsState createState() => _DayMissionsState();
+}
 
 class _DayMissionsState extends State<DayMissions> {
   List<String> chosenList = [];
@@ -553,30 +551,5 @@ class _DayMissionsState extends State<DayMissions> {
     if (result[0] && !result[1] && deletePossibility){
       updateListView(index, 2);
     }
-  }
-}
-
-
-class ClipBottom extends CustomClipper<Path>{
-  @override
-  Path getClip(Size size) {
-    Path p = Path();
-
-    p.moveTo(0,size.height);
-    p.lineTo(0,size.height - 60);
-    p.quadraticBezierTo(5, size.height - 80, 20, size.height - 80);
-
-    p.lineTo(size.width - 20,size.height - 80);
-    p.quadraticBezierTo(size.width - 5 , size.height - 80, size.width, size.height - 60);
-
-    p.lineTo(size.width,size.height);
-
-
-    return p;
-  }
-
-  @override
-  bool shouldReclip(CustomClipper<Path> oldClipper) {
-    return false;
   }
 }
