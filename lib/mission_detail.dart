@@ -1,8 +1,5 @@
-import 'dart:async';
-
 import 'package:dailymissions/missions.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'sql_helper.dart';
 
 class MissionDetails extends StatefulWidget{
@@ -47,8 +44,9 @@ class Mission extends State<MissionDetails> {
       WillPopScope(
           onWillPop: () {
             goBack();
-          },
 
+            return;
+          },
           child: Scaffold(
             appBar: AppBar(
               title: Text(screenTitle),
