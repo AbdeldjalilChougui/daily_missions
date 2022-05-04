@@ -1,5 +1,4 @@
 import 'package:dailymissions/day_review.dart';
-import 'package:dailymissions/day_statistic.dart';
 import 'package:dailymissions/missions.dart';
 import 'package:dailymissions/sql_helper.dart';
 import 'package:flutter/cupertino.dart';
