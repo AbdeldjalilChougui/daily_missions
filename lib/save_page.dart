@@ -1,17 +1,13 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:dailymissions/avan_incon.dart';
 import 'package:dailymissions/day_review.dart';
-import 'package:dailymissions/day_statistic.dart';
-import 'package:dailymissions/first_screen.dart';
 import 'package:dailymissions/main.dart';
-import 'package:dailymissions/missions.dart';
-import 'package:dailymissions/previous_days.dart';
+import 'package:dailymissions/models/missions.dart';
+import 'package:dailymissions/models/previous_days.dart';
 import 'package:dailymissions/sql_helper.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -600,41 +596,6 @@ class _SavePageState extends State<SavePage> {
 
 
 
-
-
-class ClipBottom extends CustomClipper<Path>{
-  @override
-  Path getClip(Size size) {
-    Path p = Path();
-
-    p.moveTo(0,0);
-    p.lineTo(0,size.height - 30);
-    p.quadraticBezierTo(5, size.height, 30, size.height);
-
-    p.lineTo(size.width / 3 - 30,size.height);
-    p.quadraticBezierTo(size.width / 3 , size.height + 5, size.width / 3, size.height - 30);
-
-    p.quadraticBezierTo(size.width / 3, size.height + 5, size.width / 3 + 30, size.height);
-    p.lineTo(size.width * 2 / 3 - 30,size.height);
-
-    p.quadraticBezierTo(size.width * 2 / 3 , size.height + 5, size.width * 2 / 3, size.height - 30);
-
-    p.quadraticBezierTo(size.width * 2 / 3, size.height + 5, size.width * 2 / 3 + 30, size.height);
-
-    p.lineTo(size.width - 30,size.height);
-    p.quadraticBezierTo(size.width - 5, size.height, size.width, size.height - 30);
-
-    p.lineTo(size.width,0);
-
-
-    return p;
-  }
-
-  @override
-  bool shouldReclip(CustomClipper<Path> oldClipper) {
-    return false;
-  }
-}
 
 
 
