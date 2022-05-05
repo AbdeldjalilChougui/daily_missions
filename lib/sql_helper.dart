@@ -1,5 +1,4 @@
 import 'package:dailymissions/day_review.dart';
-import 'package:dailymissions/day_statistic.dart';
 import 'package:dailymissions/models/missions.dart';
 import 'package:dailymissions/models/monthly_weekly_missions.dart';
 import 'package:dailymissions/models/previous_days.dart';
@@ -46,8 +45,6 @@ class SQL_Helper {
 
   String tableName5 = "monthlyweeklymissions";
   String _id5 = "id";
-  String __name5 = "name";
-  String __description5 = "description";
   String __status5 = "status";
 
 
