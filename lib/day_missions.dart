@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:dailymissions/avan_incon.dart';
 import 'package:dailymissions/main.dart';
 import 'package:dailymissions/mission_detail.dart';
-import 'package:dailymissions/missions.dart';
+import 'package:dailymissions/models/missions.dart';
 import 'package:dailymissions/models/mission_model.dart';
 import 'package:dailymissions/sql_helper.dart';
 import 'package:flutter/cupertino.dart';
