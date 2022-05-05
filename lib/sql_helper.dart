@@ -1,8 +1,8 @@
 import 'package:dailymissions/day_review.dart';
 import 'package:dailymissions/day_statistic.dart';
-import 'package:dailymissions/missions.dart';
-import 'package:dailymissions/monthly_weekly_missions.dart';
-import 'package:dailymissions/previous_days.dart';
+import 'package:dailymissions/models/missions.dart';
+import 'package:dailymissions/models/monthly_weekly_missions.dart';
+import 'package:dailymissions/models/previous_days.dart';
 import 'package:sqflite/sqflite.dart';
 import 'dart:async';
 import 'dart:io';
