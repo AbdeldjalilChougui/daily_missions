@@ -1,4 +1,4 @@
-import 'package:dailymissions/day_review.dart';
+import 'package:dailymissions/screens/day_review.dart';
 import 'package:dailymissions/models/missions.dart';
 import 'package:dailymissions/models/monthly_weekly_missions.dart';
 import 'package:dailymissions/models/previous_days.dart';
