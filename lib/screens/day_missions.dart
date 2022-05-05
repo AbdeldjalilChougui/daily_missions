@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:dailymissions/avan_incon.dart';
+import 'package:dailymissions/widgets/avan_incon.dart';
 import 'package:dailymissions/main.dart';
-import 'package:dailymissions/mission_detail.dart';
+import 'package:dailymissions/screens/mission_detail.dart';
 import 'package:dailymissions/models/missions.dart';
 import 'package:dailymissions/models/mission_model.dart';
-import 'package:dailymissions/sql_helper.dart';
+import 'package:dailymissions/helpers/sql_helper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';

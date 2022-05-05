@@ -1,11 +1,11 @@
-import 'package:dailymissions/card.dart';
-import 'package:dailymissions/clipper_top.dart';
-import 'package:dailymissions/day_missions.dart';
+import 'package:dailymissions/screens/save_page.dart';
+import 'package:dailymissions/widgets/card.dart';
+import 'package:dailymissions/screens/day_missions.dart';
 import 'package:dailymissions/main.dart';
-import 'package:dailymissions/plan_choice.dart';
-import 'package:dailymissions/recentdays.dart';
-import 'package:dailymissions/save_page.dart';
-import 'package:dailymissions/sql_helper.dart';
+import 'package:dailymissions/screens/plan_choice.dart';
+import 'package:dailymissions/screens/recentdays.dart';
+import 'package:dailymissions/helpers/sql_helper.dart';
+import 'package:dailymissions/widgets/clippers/clipper_top.dart';
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
 
