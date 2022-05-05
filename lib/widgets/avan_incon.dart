@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:dailymissions/day_review.dart';
+import 'package:dailymissions/screens/day_review.dart';
 import 'package:dailymissions/main.dart';
-import 'package:dailymissions/save_page.dart';
-import 'package:dailymissions/sql_helper.dart';
+import 'package:dailymissions/helpers/sql_helper.dart';
+import 'package:dailymissions/screens/save_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
