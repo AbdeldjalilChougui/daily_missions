@@ -1,11 +1,11 @@
-import 'package:dailymissions/avan_incon.dart';
-import 'package:dailymissions/day_missions.dart';
-import 'package:dailymissions/first_screen.dart';
-import 'package:dailymissions/mission_detail.dart';
-import 'package:dailymissions/plan_choice.dart';
-import 'package:dailymissions/recentdays.dart';
-import 'package:dailymissions/save_page.dart';
-import 'package:dailymissions/show_previous_day.dart';
+import 'package:dailymissions/screens/save_page.dart';
+import 'package:dailymissions/screens/show_previous_day.dart';
+import 'package:dailymissions/widgets/avan_incon.dart';
+import 'package:dailymissions/screens/day_missions.dart';
+import 'package:dailymissions/screens/first_screen.dart';
+import 'package:dailymissions/screens/mission_detail.dart';
+import 'package:dailymissions/screens/plan_choice.dart';
+import 'package:dailymissions/screens/recentdays.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
