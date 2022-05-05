@@ -1,4 +1,4 @@
-import 'package:dailymissions/missions.dart';
+import 'package:dailymissions/models/missions.dart';
 import 'package:flutter/material.dart';
 import 'sql_helper.dart';
 
