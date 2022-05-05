@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
-
-import 'package:dailymissions/show_previous_day.dart';
+import 'package:dailymissions/screens/show_previous_day.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';

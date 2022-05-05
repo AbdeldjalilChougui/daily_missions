@@ -1,6 +1,6 @@
-import 'package:dailymissions/day_missions.dart';
+import 'package:dailymissions/screens/day_missions.dart';
 import 'package:dailymissions/main.dart';
-import 'package:dailymissions/sql_helper.dart';
+import 'package:dailymissions/helpers/sql_helper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,6 +1,6 @@
 import 'package:dailymissions/models/missions.dart';
 import 'package:flutter/material.dart';
-import 'sql_helper.dart';
+import '../helpers/sql_helper.dart';
 
 class MissionDetails extends StatefulWidget{
   static final String id = "missiondetails";

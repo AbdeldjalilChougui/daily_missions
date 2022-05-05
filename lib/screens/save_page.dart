@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:dailymissions/clipper.dart';
-import 'package:dailymissions/day_review.dart';
+import 'package:dailymissions/widgets/clippers/clipper.dart';
+import 'package:dailymissions/screens/day_review.dart';
 import 'package:dailymissions/main.dart';
 import 'package:dailymissions/models/chart_spot.dart';
 import 'package:dailymissions/models/missions.dart';
 import 'package:dailymissions/models/previous_days.dart';
-import 'package:dailymissions/sql_helper.dart';
+import 'package:dailymissions/helpers/sql_helper.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
